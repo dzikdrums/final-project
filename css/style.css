@@ -1,0 +1,329 @@
+body {
+  margin: 0;
+}
+
+.menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background_img.png) no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.navbar img {
+  display: -ms-flexbox;
+  display: flex;
+  width: 79px;
+  margin: 12px auto 0 12px;
+}
+
+.menu-heading {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.menu-heading h1 {
+  color: #fff;
+  font-family: "Droid Serif";
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+
+.menu-heading h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1.88px;
+  text-align: center;
+}
+
+.btn-one {
+  background-color: #fed136;
+  color: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.inner-menu {
+  margin-left: 400px;
+}
+
+.inner-menu ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  text-align: right;
+}
+
+.inner-menu ul li {
+  display: inline-block;
+}
+
+.inner-menu ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 15px;
+  width: 70px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+
+.inner-menu ul li a:hover {
+  color: red;
+}
+
+.services {
+  margin-top: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: #fff;
+}
+
+.services .services-heading h1 {
+  text-align: center;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.services .services-heading p {
+  text-align: center;
+  color: #777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+}
+
+.service-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 20px;
+}
+
+.service-box h1 {
+  height: 14px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -0.45px;
+}
+
+.service-box p {
+  padding-top: 20px;
+  max-width: 274px;
+  color: #777;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+}
+
+.avatar {
+  padding: 10px;
+  border-radius: 50%;
+  display: block;
+  background-color: transparent;
+  border: 3px solid #fed136;
+  margin-bottom: 0;
+}
+
+.portfolio {
+  background-color: #f7f7f7;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.portfolio-main-heading {
+  height: 30px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.portfolio-main-subheading {
+  width: 296px;
+  height: 17px;
+  color: #777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+}
+
+.portfolio-box {
+  margin: 12px;
+}
+
+.portfolio-text {
+  background: #fff;
+  padding: 5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.portfolio-heading {
+  background: #fff;
+  margin-top: 0;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  height: 18px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+}
+
+.portfolio-subheading {
+  height: 15px;
+  color: #777;
+  font-family: "Droid Serif";
+  font-size: 14px;
+  font-style: italic;
+}
+
+.footer-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.footer {
+  width: 600px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  padding: 10px 0;
+}
+
+.footer ul li {
+  font-size: 0;
+  display: inline-block;
+}
+
+.footer ul li i {
+  font-size: 30px;
+  width: 40px;
+  height: 41px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #222;
+}
+
+.copyright {
+  -ms-flex: 50%;
+      flex: 50%;
+  width: 255px;
+  height: 14px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.35px;
+}
+
+@media (max-width: 767px) {
+  .service-boxes {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .portfolio-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .inner-menu {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 767px) {
+  .footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+/*# sourceMappingURL=style.css.map */
