@@ -81,7 +81,7 @@ body {
   display: inline-block;
 }
 
-.inner-menu ul li a {
+.nav-items {
   text-decoration: none;
   padding: 10px 20px;
   margin-left: 15px;
@@ -94,7 +94,7 @@ body {
   text-transform: uppercase;
 }
 
-.inner-menu ul li a:hover {
+.nav-items:hover {
   color: red;
 }
 
@@ -109,7 +109,7 @@ body {
   background: #fff;
 }
 
-.services .services-heading h1 {
+.service-heading {
   text-align: center;
   color: #222;
   font-family: Montserrat;
@@ -120,7 +120,7 @@ body {
   letter-spacing: -1px;
 }
 
-.services .services-heading p {
+.service-description {
   text-align: center;
   color: #777;
   font-family: "Droid Serif";
@@ -138,7 +138,7 @@ body {
   margin: 20px;
 }
 
-.service-box h1 {
+.service-box h2 {
   height: 14px;
   color: #222;
   font-family: Montserrat;
@@ -259,12 +259,12 @@ body {
   padding: 10px 0;
 }
 
-.footer ul li {
+.footer-fonts {
   font-size: 0;
   display: inline-block;
 }
 
-.footer ul li i {
+.fab {
   font-size: 30px;
   width: 40px;
   height: 41px;
